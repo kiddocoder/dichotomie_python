@@ -35,7 +35,7 @@ results = dichotomie(a, b, tol, max_iter)
 output_file = 'results.txt'
 with open(output_file, 'w') as file:
     # Écriture des en-têtes
-    file.write("k    a^k                b^k                x^k                  |f(x^k)|\n")
+    file.write("k    a^k                b^k                 x^k                  |f(x^k)|\n")
     file.write("============================================================================\n")
 
     # Écriture des résultats
